@@ -1,10 +1,11 @@
 .container {
+  // outline: 2px solid yellowgreen;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 80px auto;
-  width: 1100px;
-  height: 36px;
+  padding: 80px 170px;
+  width: 1440px;
+  height: 196px;
 }
 
 .logo {

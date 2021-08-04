@@ -247,8 +247,8 @@
 
 .features3nd {
   width: 1440px;
-  height: 535px;
-  padding: 41px 174px 169px 175px;
+  height: max-content;
+  padding: 41px 174px 20px 175px;
   justify-content: center;
   align-content: start;
 }
@@ -343,4 +343,17 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #ffffff;
+  z-index: 10;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.features5th {
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
