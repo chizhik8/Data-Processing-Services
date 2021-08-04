@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px auto;
+  width: 1100px;
+  height: 36px;
+}
+
+.logo {
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 50%;
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
+
+.menu {
+  width: 347px;
+  height: 20px;
+  margin-left: -370px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuLink {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b5b5b5;
+  &:hover {
+    color: #f2994a;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}
+
+.auth {
+  width: 244px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.authSingIn {
+  width: 112px;
+  height: 36px;
+  border: 1px solid #f2994a;
+  background: none;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f2994a;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.authSingUp {
+  width: 112px;
+  height: 36px;
+  background: #f2994a;
+  border: none;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

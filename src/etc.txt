@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Books reader</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="modal_root"></div>
+  </body>
+</html>
+
+===============================================================================================================================
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { PersistGate } from 'redux-persist/integration/react';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+
+import App from './components/App/App';
+import { store, persistor } from './redux/store';
+
+import 'modern-normalize/modern-normalize.css';
+import './styles/base.scss';
+
+ReactDOM.render(
+    <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </PersistGate>
+    </Provider>,
+    document.getElementById('root'),
+);
+
+========================================================================================
