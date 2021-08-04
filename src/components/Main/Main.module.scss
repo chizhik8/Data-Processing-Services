@@ -1,5 +1,5 @@
 .container {
-  outline: 2px solid yellowgreen;
+  // outline: 2px solid yellowgreen;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -298,4 +298,49 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: #8476aa;
+}
+
+.features4th {
+  width: 1440px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.features4thContent {
+  width: 780px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  margin-bottom: -140px;
+}
+
+.features4thTitle {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.19;
+  text-align: center;
+  color: #99efd0;
+  margin-bottom: 46px;
+}
+
+.features4thBtn {
+  width: 165px;
+  height: 54px;
+  border: none;
+  background: #f2994a;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
