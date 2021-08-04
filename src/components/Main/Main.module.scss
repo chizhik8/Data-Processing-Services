@@ -1,0 +1,182 @@
+.container {
+  outline: 2px solid yellowgreen;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 25px;
+  width: 1440px;
+  height: 100%;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1440px;
+  height: 580px;
+}
+
+.heroContext {
+  align-content: start;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 170px;
+  width: 540px;
+  height: 440px;
+}
+
+.heroContextTitle {
+  width: 531px;
+  height: 150px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 1.14;
+  color: #99efd0;
+  margin-bottom: 20px;
+}
+.heroContextText {
+  width: 468px;
+  height: 44px;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #8476aa;
+}
+
+.heroContextBtn {
+  margin-top: 40px;
+  width: 334px;
+  height: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.heroContextBtnLearn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 157px;
+  height: 46px;
+  background: #f2994a;
+  border: none;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  border-radius: 3px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.heroContextBtnDemo {
+  width: 157px;
+  height: 46px;
+  background: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f2994a;
+  border: 1px solid #f2994a;
+  box-sizing: border-box;
+  border-radius: 4px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.heroContextVideo {
+  width: 540px;
+  height: 80px;
+  display: flex;
+  margin-top: 60px;
+}
+
+.heroContextVideoText {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #8476aa;
+}
+
+.heroImg {
+  margin: auto;
+}
+
+.features {
+  width: 1440px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: -40px;
+}
+
+.featuresContext {
+  margin: auto;
+  width: 997px;
+  height: 100%s;
+  margin-left: -45px;
+  margin-right: -100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featuresContextTitle {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.19;
+  text-align: center;
+  color: #99efd0;
+  margin-bottom: 10px;
+}
+
+.featuresContextText {
+  font-size: 16px;
+  line-height: 1.37;
+  text-align: center;
+  color: #8476aa;
+  margin-bottom: 50px;
+}
+
+.featuresContextList {
+  margin-bottom: 35px;
+  width: 997px;
+  height: 106px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featuresContextListItem {
+  width: 299px;
+  height: 106px;
+  display: flex;
+}
+
+.featuresContextListItemBlock {
+  width: 247px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.featuresContextListItemTitle {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #99efd0;
+}
+
+.featuresContextListItemText {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #8476aa;
+  text-align: justify;
+}
