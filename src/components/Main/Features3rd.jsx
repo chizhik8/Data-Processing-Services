@@ -7,8 +7,10 @@ export class Features3rd extends Component {
     return (
       <section className={styles.features3nd}>
         <h2 className={styles.features3ndTitle}>
-          3 Simple Ways To Save A Bunch <br />
-          Of Money When Buying A New Computer
+          3 Simple Ways To <span style={{ color: '#f2994a' }}>Save</span> A
+          Bunch <br />
+          Of <span style={{ color: '#f2994a' }}>Money</span> When Buying A New
+          Computer
         </h2>
         <p className={styles.features3ndText}>
           Fully customizable and neatly organized components <br />
