@@ -11,7 +11,7 @@ import icon4 from '../../assets/icons/icon4.svg';
 import icon5 from '../../assets/icons/icon5.svg';
 import icon6 from '../../assets/icons/icon6.svg';
 
-export class Features extends Component {
+export class Features1st extends Component {
     render() {
         return (
               <section className={styles.features}>
@@ -106,4 +106,4 @@ export class Features extends Component {
     }
 }
 
-export default Features
+export default Features1st
