@@ -7,18 +7,23 @@ export class Clock extends Component {
     super(props);
     this.state = { date: new Date() };
   }
+
   render() {
     return (
       <div className={styles.container}>
-        {this.state.date.toLocaleTimeString()}
+        <time>{this.state.date.toLocaleTimeString()}</time>
       </div>
     );
   }
+
   componentDidMount() {
     const oneSecond = 1000;
     setInterval(() => {
       this.setState({ date: new Date() });
     }, oneSecond);
+  }
+  componentWillUnmount() {
+    clearInterval(this.intervalID);
   }
 }
 
