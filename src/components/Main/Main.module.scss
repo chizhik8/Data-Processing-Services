@@ -354,6 +354,37 @@
   width: 1440px;
   height: 700px;
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.features5thImg {
+  width: 494px;
+  height: 446px;
+  margin-right: 85px;
+}
+.features5thContext {
+  outline: solid;
+  width: 512px;
+  height: 290px;
+}
+.features5thTitle {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: 0.325px;
+  color: #99efd0;
+}
+.features5thText {
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #8476aa;
+  margin-bottom: 48px;
+}
+.features5thList {
+}
+.features5thItem {
 }
