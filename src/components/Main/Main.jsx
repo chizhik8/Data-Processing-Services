@@ -8,7 +8,7 @@ import Features2nd from './Features2nd';
 import Features3rd from './Features3rd';
 import Features4th from './Features4th';
 import Features5th from './Features5th';
-import Clock from '../Clock/Clock';
+// import Clock from '../Clock/Clock';
 
 export class Main extends Component {
   render() {
@@ -20,7 +20,7 @@ export class Main extends Component {
         <Features3rd />
         <Features4th />
         <Features5th />
-        <Clock />
+        {/* <Clock /> */}
       </div>
     );
   }

@@ -1,16 +1,27 @@
 import React, { Component } from 'react';
-import { ReactSVG } from 'react-svg';
+import { Img } from 'react-image';
 
 import styles from './Main.module.scss';
-import info from '../../assets/images/info.svg';
-import bitmap from '../../assets/images/bitmap.svg';
+import deal from '../../assets/images/group.png';
 
 export class Features5th extends Component {
   render() {
     return (
       <section className={styles.features5th}>
-        {/* <ReactSVG src={info} /> */}
-        {/* <ReactSVG src={bitmap} /> */}
+        <Img src={deal} className={styles.features5thImg} />
+        <div className={styles.features5thContext}>
+          <h2 className={styles.features5thTitle}>
+            Help Finding Information Online
+          </h2>
+          <p className={styles.features5thText}>
+            Fully customizable and neatly organized components <br /> will help
+            you work faster without limiting creative freedom.
+          </p>
+          <ul className={styles.features5thList}>
+            <li className={styles.features5thItem}></li>
+            <li className={styles.features5thItem}></li>
+          </ul>
+        </div>
       </section>
     );
   }
