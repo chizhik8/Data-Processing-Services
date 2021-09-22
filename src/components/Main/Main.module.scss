@@ -365,7 +365,6 @@
   margin-right: 85px;
 }
 .features5thContext {
-  outline: solid;
   width: 512px;
   height: 290px;
 }
@@ -383,8 +382,29 @@
   letter-spacing: 0.2px;
   color: #8476aa;
   margin-bottom: 48px;
+  font-family: Gilroy-SemiBold;
 }
+
 .features5thList {
+  display: flex;
 }
-.features5thItem {
+.features5thItemTitle {
+  font-family: Inter;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  color: #99efd0;
+}
+
+.features5thItemText {
+  width: 270px;
+  height: fit-content;
+  font-family: Gilroy-SemiBold;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #8476aa;
 }
