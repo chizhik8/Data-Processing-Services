@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../Header/Header';
 import Main from '../Main/Main';
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 
 export class App extends Component {
   render() {
@@ -10,7 +10,7 @@ export class App extends Component {
       <div>
         <Header />
         <Main />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }

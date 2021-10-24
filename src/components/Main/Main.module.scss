@@ -408,3 +408,37 @@
   letter-spacing: 0.2px;
   color: #8476aa;
 }
+
+.features6th {
+  width: 940px;
+  height: 324px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 170px;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+}
+
+.features6thContext {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.features6thTitle {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.19;
+  color: #f2994a;
+  margin-bottom: 20px;
+}
+
+.features6thText {
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 1.37;
+  color: #95a1bb;
+}
