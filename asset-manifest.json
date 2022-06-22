@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/FinTech/static/css/main.95f6acd4.chunk.css",
+    "main.js": "/FinTech/static/js/main.7fe799e0.chunk.js",
+    "main.js.map": "/FinTech/static/js/main.7fe799e0.chunk.js.map",
+    "runtime-main.js": "/FinTech/static/js/runtime-main.eb95ce33.js",
+    "runtime-main.js.map": "/FinTech/static/js/runtime-main.eb95ce33.js.map",
+    "static/css/2.c79dbdbc.chunk.css": "/FinTech/static/css/2.c79dbdbc.chunk.css",
+    "static/js/2.cbf5de67.chunk.js": "/FinTech/static/js/2.cbf5de67.chunk.js",
+    "static/js/2.cbf5de67.chunk.js.map": "/FinTech/static/js/2.cbf5de67.chunk.js.map",
+    "index.html": "/FinTech/index.html",
+    "static/css/2.c79dbdbc.chunk.css.map": "/FinTech/static/css/2.c79dbdbc.chunk.css.map",
+    "static/css/main.95f6acd4.chunk.css.map": "/FinTech/static/css/main.95f6acd4.chunk.css.map",
+    "static/js/2.cbf5de67.chunk.js.LICENSE.txt": "/FinTech/static/js/2.cbf5de67.chunk.js.LICENSE.txt",
+    "static/media/frame.ea5e554f.svg": "/FinTech/static/media/frame.ea5e554f.svg",
+    "static/media/group.e2ba41ec.png": "/FinTech/static/media/group.e2ba41ec.png",
+    "static/media/icon1.948a93d6.svg": "/FinTech/static/media/icon1.948a93d6.svg",
+    "static/media/icon2.1c09a8c9.svg": "/FinTech/static/media/icon2.1c09a8c9.svg",
+    "static/media/icon3.129d5e9d.svg": "/FinTech/static/media/icon3.129d5e9d.svg",
+    "static/media/icon4.f40abba6.svg": "/FinTech/static/media/icon4.f40abba6.svg",
+    "static/media/icon5.c71d0f46.svg": "/FinTech/static/media/icon5.c71d0f46.svg",
+    "static/media/icon6.95a88818.svg": "/FinTech/static/media/icon6.95a88818.svg",
+    "static/media/icon7.9776179e.svg": "/FinTech/static/media/icon7.9776179e.svg",
+    "static/media/icon8.68f43752.svg": "/FinTech/static/media/icon8.68f43752.svg",
+    "static/media/img.fd6e3371.svg": "/FinTech/static/media/img.fd6e3371.svg",
+    "static/media/logo.8ff8ee1c.svg": "/FinTech/static/media/logo.8ff8ee1c.svg",
+    "static/media/man.bcf4e9a7.svg": "/FinTech/static/media/man.bcf4e9a7.svg",
+    "static/media/rainleft.37d544b8.svg": "/FinTech/static/media/rainleft.37d544b8.svg",
+    "static/media/rainright.88d8d288.svg": "/FinTech/static/media/rainright.88d8d288.svg",
+    "static/media/rainside.811c4719.svg": "/FinTech/static/media/rainside.811c4719.svg",
+    "static/media/video.e632fac8.svg": "/FinTech/static/media/video.e632fac8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb95ce33.js",
+    "static/css/2.c79dbdbc.chunk.css",
+    "static/js/2.cbf5de67.chunk.js",
+    "static/css/main.95f6acd4.chunk.css",
+    "static/js/main.7fe799e0.chunk.js"
+  ]
+}
