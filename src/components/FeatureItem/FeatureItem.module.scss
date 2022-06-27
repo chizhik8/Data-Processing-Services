@@ -1,0 +1,25 @@
+.container {
+    width: 299px;
+    height: 106px;
+    display: flex;
+  }
+  
+  .content {
+    width: 247px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #99efd0;
+  }
+  
+  .text {
+    font-size: 14px;
+    line-height: 1.57;
+    text-align: justify;
+    color: #8476aa;
+  }

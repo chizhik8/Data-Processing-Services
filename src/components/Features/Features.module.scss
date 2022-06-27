@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+}
+
+.content {
+  margin: auto;
+  margin-left: -45px;
+  margin-right: -100px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.19;
+  text-align: center;
+  color: #99efd0;
+}
+
+.text {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 1.37;
+  text-align: center;
+  color: #8476aa;
+}
+
+.list {
+  width: 997px;
+  height: 247px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
