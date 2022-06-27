@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import styles from './Main.module.scss';
 
-import Hero from './Hero';
+import Hero from '../Hero/Hero';
 import Features1st from './Features1st';
 import Features2nd from './Features2nd';
 import Features3rd from './Features3rd';

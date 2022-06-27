@@ -1,0 +1,27 @@
+.container {
+  width: 157px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+[data-variant="full"] {
+  color: #ffffff;
+  background: #f2994a;
+  border: none;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+}
+
+[data-variant="unfull"]  {
+  color: #f2994a;
+  background: none;
+  border: 1px solid #f2994a;
+}
