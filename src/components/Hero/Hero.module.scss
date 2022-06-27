@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+}
+
+.content {
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 1.14;
+  color: #99efd0;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #8476aa;
+}
+
+.bttn {
+  margin-top: 40px;
+}
+
+.bttn > button {
+  margin-right: 20px;
+}
+
+.video {
+  display: flex;
+  margin-top: 60px;
+}
+
+.videoText {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #8476aa;
+}
