@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+  
+.imgRain {
+  position: absolute;
+  top: 390px;
+}
+
+.content {
+  width: 470px;
+  margin: 205px 58px 216px 251px;
+  position: inherit;
+}
+  
+.title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.19;
+  color: #99efd0;
+  margin-bottom: 32px;
+}
+  
+.text {
+  font-size: 15px;
+  line-height: 1.87;
+  letter-spacing: 0.5px;
+  color: #8476aa;
+  margin-bottom: 43px;
+}
+  
+.img {
+  margin: auto 0px;
+}
