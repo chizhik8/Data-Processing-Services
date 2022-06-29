@@ -1,0 +1,37 @@
+.container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.img {
+  width: 494px;
+  height: 446px;
+  margin-right: 85px;
+}
+
+.title {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: 0.325px;
+  color: #99efd0;
+}
+.text {
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #8476aa;
+  margin-bottom: 48px;
+  width: 420px;
+}
+
+.list {
+  display: flex;
+}
+
+.list li:first-child{
+    margin-right: 76px;
+}

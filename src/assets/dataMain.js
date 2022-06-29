@@ -1,11 +1,13 @@
-import icon1 from '../assets/icons/icon1.svg';
-import icon2 from '../assets/icons/icon2.svg';
-import icon3 from '../assets/icons/icon3.svg';
-import icon4 from '../assets/icons/icon4.svg';
-import icon5 from '../assets/icons/icon5.svg';
-import icon6 from '../assets/icons/icon6.svg';
-import trafficImg from '../assets/images/imgTraffic.svg';
-import investImg from '../assets/images/invest.svg';
+import icon1 from './icons/icon1.svg';
+import icon2 from './icons/icon2.svg';
+import icon3 from './icons/icon3.svg';
+import icon4 from './icons/icon4.svg';
+import icon5 from './icons/icon5.svg';
+import icon6 from './icons/icon6.svg';
+import trafficImg from './images/imgTraffic.svg';
+import investImg from './images/invest.svg';
+import knife from './icons/icon8.svg';
+import network from './icons/icon7.svg';
 
 const main = {
     hero: {
@@ -40,7 +42,19 @@ const main = {
         titleLstWrd: 'business',
         text:'We are committed to processing the information in order to contact you and talk about your project.',
         img: investImg,
-    }
+    },
+    details: {
+        title: 'Help Finding Information Online',
+        text: 'Fully customizable and neatly organized components will help you work faster without limiting creative freedom.',
+        items: [
+            {id:'01', title:'Feature One', text:'Fully customizable and neatly organized components will help you work faster without limiting creative freedom.', img: knife},
+            {id:'02', title:'Feature Two', text:'Fully customizable and neatly organized components will help you work faster without limiting creative freedom.', img: network},
+        ],
+    },
+    subscribe: {
+        title: 'There are many reasons to get down',
+        text: 'There are many reasons to get down and start to get depressed about your situation',
+    },
 }
 
 export default main;

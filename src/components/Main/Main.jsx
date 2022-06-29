@@ -7,12 +7,14 @@ import Hero from '../Hero/Hero';
 import Features from '../Features/Features';
 import Content from '../Content/Content';
 import Advices from '../Advices/Advices';
-import Features5th from './Features5th';
 import { CreateProject } from '../CreateProject/CreateProject';
+import Details from '../Details/Details';
+import Subscribe from '../Subscribe/Subscribe';
+
 
 export class Main extends Component {
   render() {
-    const {hero, features, traffic, advices, invest} = data;
+    const {hero, features, traffic, advices, invest, details, subscribe} = data;
     console.log()
     return (
       <div className={styles.container}>
@@ -22,7 +24,8 @@ export class Main extends Component {
         <Advices text={advices.text} items={advices.items}/>
         <CreateProject />
         <Content title={invest.title} titleLW={invest.titleLstWrd} text={invest.text} image={invest.img}/>
-        <Features5th />
+        <Details title={details.title} text={details.text} items={details.items}/>
+        <Subscribe title={subscribe.title} text={subscribe.text}/>
       </div>
     );
   }

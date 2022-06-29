@@ -1,0 +1,43 @@
+.container {
+//   outline: 2px solid orangered;
+  width: 1440px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.imgRain{
+    position: absolute;
+    top: -35px;
+    left: -150px;
+    opacity: 0.5;
+}
+
+.context {
+  width: 940px;
+  height: 324px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: rgba(60, 62, 125, 0.19);
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.19;
+  color: #f2994a;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 395px;
+  margin: 0px auto;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 1.37;
+  color: #95a1bb;
+}
