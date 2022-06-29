@@ -25,6 +25,15 @@ const main = {
         text:'We are committed to processing the information in order to contact you and talk about your project.',
         img: trafficImg,
     },
+    advices: {
+        title: '3 Simple Ways To Save A Bunch Of Money When Buying A New Computer',
+        text: 'Fully customizable and neatly organized components will help you work faster without limiting creative freedom.',
+        items: [
+            {id:'100+', title:'100+', text:'5 Reasons To Purchase Desktop Computers'},
+            {id:'43,000+', title:'43,000+', text:'3 Simple Ways To Save A Bunch Of Money When Buying A New Computer'},
+            {id:'30+', title:'30+', text:'A Discount Toner Cartridge Is Better Than Ever And You Will Save 50 Or More'},
+        ],
+    },
 }
 
 export default main;

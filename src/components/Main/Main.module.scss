@@ -1,66 +1,10 @@
 .container {
-  // outline: 2px solid yellowgreen;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   margin-top: 25px;
   width: 1440px;
   height: 100%;
-}
-
-.features3nd {
-  width: 1440px;
-  height: max-content;
-  padding: 41px 174px 20px 175px;
-  justify-content: center;
-  align-content: start;
-}
-
-.features3ndTitle {
-  margin-bottom: 32px;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.33px;
-  color: #99efd0;
-}
-
-.features3ndText {
-  font-size: 15px;
-  line-height: 1.33;
-  text-align: center;
-  letter-spacing: 0.2px;
-  color: #8476aa;
-  margin-bottom: 48px;
-}
-
-.features3ndList {
-  display: flex;
-  justify-content: space-between;
-}
-
-.features3ndItem {
-  width: 291px;
-  height: 118px;
-}
-
-.features3ndItemTitle {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.33px;
-  color: #99efd0;
-  margin-bottom: 16px;
-}
-
-.features3ndItemText {
-  font-size: 15px;
-  line-height: 1.33;
-  text-align: center;
-  letter-spacing: 0.2px;
-  color: #8476aa;
 }
 
 .features4th {

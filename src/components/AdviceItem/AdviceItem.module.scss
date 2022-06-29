@@ -1,9 +1,15 @@
 .container {
-  width: 1440px;
+  width: 235px;
+  height: 100%;
 }
 
+.container:nth-child(even) {
+  margin-left: 165px;
+  margin-right: 165px;
+}
+  
 .title {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   text-align: center;
   font-weight: bold;
   font-size: 36px;
@@ -12,22 +18,12 @@
   color: #99efd0;
 }
 
-.title > span {
-   color: #f2994a;
-}
 
+  
 .text {
-  margin: auto;
-  width: 420px;
   text-align: center;
   font-size: 15px;
   line-height: 1.33;
   letter-spacing: 0.2px;
   color: #8476aa;
-}
-
-.list {
-  display: flex;
-  justify-content: center;
-  margin-top: 48px;
 }
