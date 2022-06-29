@@ -5,6 +5,7 @@ import icon4 from '../assets/icons/icon4.svg';
 import icon5 from '../assets/icons/icon5.svg';
 import icon6 from '../assets/icons/icon6.svg';
 import trafficImg from '../assets/images/imgTraffic.svg';
+import investImg from '../assets/images/invest.svg';
 
 const main = {
     hero: {
@@ -34,6 +35,12 @@ const main = {
             {id:'30+', title:'30+', text:'A Discount Toner Cartridge Is Better Than Ever And You Will Save 50 Or More'},
         ],
     },
+    invest: {
+        title: 'Invest property for better',
+        titleLstWrd: 'business',
+        text:'We are committed to processing the information in order to contact you and talk about your project.',
+        img: investImg,
+    }
 }
 
 export default main;

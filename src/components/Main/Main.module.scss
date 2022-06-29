@@ -7,59 +7,8 @@
   height: 100%;
 }
 
-.features4th {
-  width: 1440px;
-  height: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.features4thContent {
-  width: 780px;
-  height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 140px;
-  margin-bottom: -140px;
-}
-
-.features4thTitle {
-  font-weight: bold;
-  font-size: 42px;
-  line-height: 1.19;
-  text-align: center;
-  color: #99efd0;
-  margin-bottom: 46px;
-}
-
-.features4thBtn {
-  width: 165px;
-  height: 54px;
-  border: none;
-  background: #f2994a;
-  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
-  border-radius: 3px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.67;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #ffffff;
-  z-index: 10;
-  &:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  }
-}
-
 .features5th {
   width: 1440px;
-  height: 700px;
   display: flex;
   margin-bottom: 40px;
   justify-content: center;

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  width: 780px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 140px;
+  margin-bottom: -140px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.19;
+  text-align: center;
+  color: #99efd0;
+  margin-bottom: 46px;
+}

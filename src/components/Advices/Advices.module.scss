@@ -1,5 +1,12 @@
 .container {
   width: 1440px;
+  position: relative;
+}
+
+.imgRain {
+  position: absolute;
+  top: -350px;
+  left: 100px;
 }
 
 .title {
