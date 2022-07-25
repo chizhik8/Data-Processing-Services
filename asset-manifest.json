@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/FinTech/static/css/main.234e20af.chunk.css",
-    "main.js": "/FinTech/static/js/main.a965ce01.chunk.js",
-    "main.js.map": "/FinTech/static/js/main.a965ce01.chunk.js.map",
+    "main.css": "/FinTech/static/css/main.c6cdeb59.chunk.css",
+    "main.js": "/FinTech/static/js/main.63b79008.chunk.js",
+    "main.js.map": "/FinTech/static/js/main.63b79008.chunk.js.map",
     "runtime-main.js": "/FinTech/static/js/runtime-main.eb95ce33.js",
     "runtime-main.js.map": "/FinTech/static/js/runtime-main.eb95ce33.js.map",
     "static/css/2.c79dbdbc.chunk.css": "/FinTech/static/css/2.c79dbdbc.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.8e582937.chunk.js.map": "/FinTech/static/js/2.8e582937.chunk.js.map",
     "index.html": "/FinTech/index.html",
     "static/css/2.c79dbdbc.chunk.css.map": "/FinTech/static/css/2.c79dbdbc.chunk.css.map",
-    "static/css/main.234e20af.chunk.css.map": "/FinTech/static/css/main.234e20af.chunk.css.map",
+    "static/css/main.c6cdeb59.chunk.css.map": "/FinTech/static/css/main.c6cdeb59.chunk.css.map",
     "static/js/2.8e582937.chunk.js.LICENSE.txt": "/FinTech/static/js/2.8e582937.chunk.js.LICENSE.txt",
     "static/media/createproject.ea5e554f.svg": "/FinTech/static/media/createproject.ea5e554f.svg",
     "static/media/group.e2ba41ec.png": "/FinTech/static/media/group.e2ba41ec.png",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.eb95ce33.js",
     "static/css/2.c79dbdbc.chunk.css",
     "static/js/2.8e582937.chunk.js",
-    "static/css/main.234e20af.chunk.css",
-    "static/js/main.a965ce01.chunk.js"
+    "static/css/main.c6cdeb59.chunk.css",
+    "static/js/main.63b79008.chunk.js"
   ]
 }
