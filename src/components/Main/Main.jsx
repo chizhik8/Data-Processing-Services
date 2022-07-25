@@ -25,7 +25,7 @@ export class Main extends Component {
         <CreateProject />
         <Content title={invest.title} titleLW={invest.titleLstWrd} text={invest.text} image={invest.img}/>
         <Details title={details.title} text={details.text} items={details.items}/>
-        <Subscribe title={subscribe.title} text={subscribe.text}/>
+        <Subscribe title={subscribe.title} text={subscribe.text} sign={subscribe.sign}/>
       </div>
     );
   }

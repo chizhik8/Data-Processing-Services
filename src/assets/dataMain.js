@@ -54,6 +54,7 @@ const main = {
     subscribe: {
         title: 'There are many reasons to get down',
         text: 'There are many reasons to get down and start to get depressed about your situation',
+        sign: 'No spam. Only releases, updates and discounts',
     },
 }
 
