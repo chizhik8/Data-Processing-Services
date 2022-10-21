@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import styles from './Main.module.scss';
-import data from '../../assets/dataMain'
+import data from '../../assets/data'
 
 import Hero from '../Hero/Hero';
 import Features from '../Features/Features';

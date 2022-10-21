@@ -1,6 +1,70 @@
 .container {
-  outline: 2px solid lightskyblue;
   margin: auto;
   width: 992px;
-  height: 437px;
+  height: fit-content;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+}
+
+.title {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: 0.325px;
+  color: #F2994A;
+  margin-left: 16px;
+}
+
+.social {
+  display: flex;
+}
+
+.socialIcon {
+  margin-left: 16px;
+} 
+
+.copy {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #8D8D8D;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px auto;
+}
+
+.menuTitle {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.subMenuTitle {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
 }

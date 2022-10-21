@@ -9,7 +9,7 @@ import investImg from './images/invest.svg';
 import knife from './icons/icon8.svg';
 import network from './icons/icon7.svg';
 
-const main = {
+const db = {
     hero: {
         title: 'Many reasons to get up and start to get back in the business.',
         text: 'The harder you work for something, the greater you’ll feel when you achieve it.',
@@ -56,6 +56,15 @@ const main = {
         text: 'There are many reasons to get down and start to get depressed about your situation',
         sign: 'No spam. Only releases, updates and discounts',
     },
+    footer: {
+        title: 'Conpany',
+        menu: [
+            {id: 11, title: 'First', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
+            {id: 12, title: 'Second', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
+            {id: 13, title: 'Third', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
+            {id: 14, title: 'Fourth', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
+        ],
+    }
 }
 
-export default main;
+export default db;
