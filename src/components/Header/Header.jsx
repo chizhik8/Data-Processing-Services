@@ -1,30 +1,28 @@
 import React, { Component } from 'react';
 import { ReactSVG } from 'react-svg';
+import Button from '../Button/Button';
 
 import styles from './Header.module.scss';
 import logo from '../../assets/icons/logo.svg';
+import db from '../../assets/data';
+
+const menuRender = db.menu.map((page, i) => (
+    <li className={styles.menuLink} key={page + i}>
+      {page}
+    </li>
+  ));
 
 export class Header extends Component {
-  render() {
-    const pages = ['About', 'Gallery', 'Pricing', 'FAQ', 'Benefits'];
-    const pageLink = pages.map((page, i) => (
-      <li className={styles.menuLink} key={page + i}>
-        {page}
-      </li>
-    ));
+  render () {
     return (
       <div className={styles.container}>
-        <ReactSVG src={logo} className={styles.logo} />
-        <nav>
-          <ul className={styles.menu}>{pageLink}</ul>
+        <nav className={styles.navigation}>
+          <ReactSVG src={logo} className={styles.logo} />
+          <nav><ul className={styles.menu}>{menuRender}</ul></nav>
         </nav>
         <div className={styles.auth}>
-          <button type="button" className={styles.authSingIn}>
-            Sign In
-          </button>
-          <button type="button" className={styles.authSingUp}>
-            Sign Up
-          </button>
+          <Button text='Sign In' variant='singIn'/>
+          <Button text='Sign In' variant='singUp'/>
         </div>
       </div>
     );

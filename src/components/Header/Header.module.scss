@@ -1,11 +1,17 @@
+@import '../../styles/varaibles.scss';
+
 .container {
-  // outline: 2px solid yellowgreen;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 80px 170px;
   width: 1440px;
-  height: 196px;
+  height: auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -15,14 +21,13 @@
     transform: scale(1.2);
     cursor: pointer;
   }
+  margin-right: 40px;
 }
 
 .menu {
-  width: 347px;
-  height: 20px;
-  margin-left: -370px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menuLink {
@@ -36,46 +41,30 @@
     cursor: pointer;
     transform: scale(1.2);
   }
+  margin-right: 20px;
 }
 
 .auth {
-  width: 244px;
-  height: 36px;
   display: flex;
   justify-content: space-between;
 }
 
-.authSingIn {
-  width: 112px;
-  height: 36px;
-  border: 1px solid #f2994a;
-  background: none;
-  border-radius: 4px;
-  font-size: 12px;
-  line-height: 1.67;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #f2994a;
-  &:hover {
-    transform: scale(1.2);
-  }
-}
 
-.authSingUp {
-  width: 112px;
-  height: 36px;
-  background: #f2994a;
-  border: none;
-  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
-  border-radius: 4px;
-  font-size: 12px;
-  line-height: 1.67;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #ffffff;
-  &:hover {
-    transform: scale(1.2);
+@media(min-width: $mobile-min) and (max-width:$mobile-max) {
+  .container{
+    width: $mobile;
+    padding: 10px;
+    margin: auto 0;
+    flex-direction: column;
+  }
+  .logo {
+    margin-right: 20px;
+  }
+  .menuLink {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .auth {
+    margin-top: 15px;
   }
 }
