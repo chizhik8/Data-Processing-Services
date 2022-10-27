@@ -65,7 +65,7 @@
   }
 }
 
-@media(min-width: $mobile-min) and (max-width:$mobile-max) {
+@media(min-width: $mobile-min) and (max-width:$tablet) {
   [data-variant="singIn"] {
     width: 75px;
     height: 24px;
