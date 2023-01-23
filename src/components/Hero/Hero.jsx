@@ -24,7 +24,7 @@ export class Hero extends Component {
                         <p className={styles.videoText}>{text} <br/> Watch preview</p>
                     </div>
                 </div>
-                <ReactSVG src={manImg} />
+                <ReactSVG src={manImg} className={styles.image} />
             </section>
         )
     }

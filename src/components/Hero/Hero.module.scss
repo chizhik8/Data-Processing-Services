@@ -41,3 +41,13 @@
   line-height: 1.75;
   color: #8476aa;
 }
+
+.image {
+  transform: scale(1) translate(20%, 0);
+  transition: all 375ms linear;
+
+}
+
+.image:hover {
+  transform: scale(1.4) translate(10%, 5%);
+}
