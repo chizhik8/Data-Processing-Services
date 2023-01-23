@@ -1,14 +1,9 @@
-@import '../../styles/varaibles.scss';
-
 .container {
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 80px 170px;
-  width: 1440px;
-  height: auto;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 80px auto;
 }
 
 .navigation {
@@ -50,35 +45,5 @@
 .auth {
   display: flex;
   justify-content: space-between;
-}
-
-@media(max-width:$tablet) {
-  .container{
-    width: 100%;
-    padding: 10px 20px;
-  }
-  .logo {
-    margin-right: 20px;
-  }
-  .menuLink {
-    font-size: 10px;
-    margin-right: 10px;
-  }
-}
-
-@media(min-width: $mobile-min) and (max-width:$mobile-max) {
-  .container{
-    display: block;
-  }
-  .navigation > * {
-    margin-bottom: 15px;
-  }
-  .menuLink {
-    font-size: 8px;
-    margin-right: 8px;
-  }
-  .auth {
-    justify-content: flex-end;
-  }
 }
 

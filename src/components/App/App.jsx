@@ -9,8 +9,8 @@ export class App extends Component {
     return (
       <div>
         <Header />
-        {/* <Main /> */}
-        {/* <Footer /> */}
+        <Main />
+        <Footer />
       </div>
     );
   }

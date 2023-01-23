@@ -58,7 +58,7 @@ const db = {
         sign: 'No spam. Only releases, updates and discounts',
     },
     footer: {
-        title: 'Conpany',
+        title: 'Company',
         menu: [
             {id: 11, title: 'First', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
             {id: 12, title: 'Second', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
