@@ -1,8 +1,8 @@
 {
-  "name": "finserv_client",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chizhik8.github.io/LandingPageExample",
+  "homepage": "https://chizhik8.github.io/Data-Processing-Services",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -13,6 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-image": "^4.0.3",
+    "react-router-dom": "5.3.4",
     "react-scripts": "4.0.3",
     "react-svg": "^14.0.7",
     "web-vitals": "^1.1.2"
@@ -44,6 +45,12 @@
     ]
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "2.3.2",
+    "typescript": "^5.1.6"
   }
 }
