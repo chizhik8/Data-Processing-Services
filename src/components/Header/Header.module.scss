@@ -28,18 +28,20 @@
   align-items: center;
 }
 
-.menuLink {
+.menuLink, .navLink {
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #b5b5b5;
-  &:hover {
-    color: #f2994a;
-    cursor: pointer;
-    transform: scale(1.2);
-  }
   margin-right: 20px;
+}
+
+.menuLink:hover,
+.navLink:hover {
+  color: #f2994a !important;
+  cursor: pointer !important;
+  transform: scale(1.2) !important;
 }
 
 .auth {
