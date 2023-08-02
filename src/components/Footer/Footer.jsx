@@ -13,7 +13,7 @@ import logo from '../../assets/icons/logo.svg';
 export class Footer extends Component {
   render() {
     return (
-      <div className={styles.container}>
+      <footer className={styles.container}>
         <div className={styles.contacts}>
         <nav className={styles.company}>
           <ReactSVG  src={logo}/>
@@ -33,7 +33,7 @@ export class Footer extends Component {
           </li>)}
         </ul>
         <p  className={styles.copy}>© Copyrights 2021</p>
-      </div>
+      </footer>
     );
   }
 }

@@ -10,7 +10,13 @@ import knife from './icons/icon8.svg';
 import network from './icons/icon7.svg';
 
 const db = {
-    menu: ['About', 'Gallery', 'Pricing', 'FAQ', 'Benefits'],
+    menu: [
+        { id: 1, link: '/Data-Processing-Services/about', pageName: 'About' },
+        { id: 2, link: '/Data-Processing-Services/gallery', pageName: 'Gallery'},
+        { id: 3, link: '/Data-Processing-Services/pricing', pageName: 'Pricing' },
+        { id: 4, link: '/Data-Processing-Services/questions', pageName: 'FAQ' },
+        { id: 5, link: '/Data-Processing-Services/benefits', pageName: 'Benefits'},
+    ],
     hero: {
         title: 'Many reasons to get up and start to get back in the business.',
         text: 'The harder you work for something, the greater you’ll feel when you achieve it.',
