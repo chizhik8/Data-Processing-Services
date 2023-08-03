@@ -8,4 +8,4 @@ This project was bootstrapped with
 
 [Deploying on Git Hub Pages](https://create-react-app.dev/docs/deployment/#github-pages) 
 
-[[Deploying on Heroku](https://blog.heroku.com/deploying-react-with-zero-configuration)
+[Deploying on Heroku](https://blog.heroku.com/deploying-react-with-zero-configuration)
