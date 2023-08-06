@@ -71,6 +71,16 @@ const db = {
             {id: 13, title: 'Third', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
             {id: 14, title: 'Fourth', submenu: [{id: 1, title: 'First page'}, {id: 2, title: 'Second page'}, {id: 3, title: 'Third page'}, {id: 4, title: 'Fourth page'},]},
         ],
+    },
+    faq: {
+        title: 'What can we help you find?',
+        description: 'Kindly review the list of commonly asked questions provided below. Should you not discover the information you seek, we kindly request that you submit your inquiry using the form below.',
+        subtitle: 'If you have any other questions or need further information, feel free to contact us. Our team is always here to assist you!',
+        form: {
+            textarea: 'Inquiry or What Are You Searching For:',
+            input: 'Please provide your email for a prompt response:',
+            bttn: 'Add Question',
+        },
     }
 }
 

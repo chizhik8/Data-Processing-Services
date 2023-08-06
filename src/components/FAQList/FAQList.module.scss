@@ -1,0 +1,35 @@
+.container {
+    max-width: 990px;
+    height: fit-content;
+    margin: 60px auto 100px;
+}
+
+.list {
+    column-count: 3;
+    column-gap: 40px
+}
+
+.item {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #99efd0;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.57;
+    text-align: justify;
+    color: #8476aa;
+    margin-top: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #99efd0;
+    margin: 60px;
+}
