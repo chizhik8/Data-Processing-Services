@@ -11,11 +11,11 @@ import network from './icons/icon7.svg';
 
 const db = {
     menu: [
-        { id: 1, link: '/Data-Processing-Services/about', pageName: 'About' },
-        { id: 2, link: '/Data-Processing-Services/gallery', pageName: 'Gallery'},
-        { id: 3, link: '/Data-Processing-Services/pricing', pageName: 'Pricing' },
-        { id: 4, link: '/Data-Processing-Services/questions', pageName: 'FAQ' },
-        { id: 5, link: '/Data-Processing-Services/benefits', pageName: 'Benefits'},
+        { id: 1, link: '/about', pageName: 'About' },
+        { id: 2, link: '/gallery', pageName: 'Gallery'},
+        { id: 3, link: '/pricing', pageName: 'Pricing' },
+        { id: 4, link: '/questions', pageName: 'FAQ' },
+        { id: 5, link: '/benefits', pageName: 'Benefits'},
     ],
     hero: {
         title: 'Many reasons to get up and start to get back in the business.',

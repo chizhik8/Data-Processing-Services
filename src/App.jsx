@@ -21,12 +21,12 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route path="/Data-Processing-Services" exact><Home /></Route>
-        <Route path="/Data-Processing-Services/about"><About /></Route>
-        <Route path="/Data-Processing-Services/gallery"><Gallery /></Route>
-        <Route path="/Data-Processing-Services/pricing"><Pricing /></Route>
-        <Route path="/Data-Processing-Services/questions"><Questions /></Route>
-        <Route path="/Data-Processing-Services/benefits"><Benefits /></Route>
+        <Route path="/" exact><Home /></Route>
+        <Route path="/about"><About /></Route>
+        <Route path="/gallery"><Gallery /></Route>
+        <Route path="/pricing"><Pricing /></Route>
+        <Route path="/questions"><Questions /></Route>
+        <Route path="/benefits"><Benefits /></Route>
       </Switch>
     </div>
   );

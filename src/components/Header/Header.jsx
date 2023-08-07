@@ -24,7 +24,7 @@ export class Header extends Component {
     return (
       <header className={styles.container}>
         <nav className={styles.navigation}>
-          <NavLink to="/Data-Processing-Services"><ReactSVG src={logo} className={styles.logo} /></NavLink>
+          <NavLink to="/"><ReactSVG src={logo} className={styles.logo} /></NavLink>
           <nav><ul className={styles.menu}>{menuRender}</ul></nav>
         </nav>
         <div className={styles.auth}>
