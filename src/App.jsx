@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -10,6 +10,14 @@ import Benefits from './pages/Benefits';
 
 function App() {
   
+  const urlData = 'https://data-processing-services-default-rtdb.europe-west1.firebasedatabase.app/data.json';
+  
+  useEffect(() => { 
+    fetch(urlData)
+      .then(response => { return response.json(); })
+      .then(data => { console.log(data); });
+  }, []);
+
   return (
     <div>
       <Switch>
