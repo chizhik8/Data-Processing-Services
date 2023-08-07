@@ -6,4 +6,4 @@ Based on free design for desktop:
 
 [React Router v5](https://v5.reactrouter.com/web/guides/quick-start)
 
-[Firebase Hosting](https://firebase.google.com/docs/hosting)
+Firebase Hosting: [docs](https://firebase.google.com/docs/hosting), [article](https://hengwang.medium.com/automatically-deploy-your-website-to-firebase-hosting-with-github-actions-76d7a8598a5e)
